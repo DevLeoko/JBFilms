@@ -23,7 +23,7 @@ img {
   position: absolute;
   left: 42.5%;
   width: 15%;
-  bottom: 40%;
+  top: 32vh;
 }
 
 #imgContainer:hover > #namePopup {
@@ -31,14 +31,15 @@ img {
 
 #namePopup {
   color: white;
-  height: 0px;
+  // height: 0px;
   font-weight: 700;
   text-align: center;
   font-size: 28px;
   overflow: hidden;
-  animation: 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s 1 startUpName;
-  animation-fill-mode: forwards;
-  transition: all 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  // animation: 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s 1 startUpName;
+  // animation-fill-mode: forwards;
+  // opacity: 0;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 2s both;
   // background-color: rgb(44, 44, 44);
 }
 

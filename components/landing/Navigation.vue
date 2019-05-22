@@ -1,25 +1,27 @@
 <template>
-  <v-layout row wrap text-xl-center>
-    <v-flex xs2 offset-xs1>
-      <img src="~assets/graphics/logos/logoIcon.png" />
-    </v-flex>
-    <nav-button>
-      Über uns
-    </nav-button>
-    <nav-button>
-      Unsere Ausrüstung
-    </nav-button>
-    <nav-button>
-      Portfolio
-    </nav-button>
-    <nav-button>
-      Schreib uns!
-    </nav-button>
-  </v-layout>
+  <v-flex id="navBar" xs12 text-xs-center>
+    <v-layout row wrap>
+      <v-flex xs2 offset-xs1>
+        <img src="~assets/graphics/logos/logoIcon.png" />
+      </v-flex>
+      <nav-button>
+        Über mich
+      </nav-button>
+      <nav-button>
+        Meine Ausrüstung
+      </nav-button>
+      <nav-button>
+        Portfolio
+      </nav-button>
+      <nav-button>
+        Kontakt
+      </nav-button>
+    </v-layout>
+  </v-flex>
 </template>
 
 <style lang="scss" scoped>
-.layout {
+#navBar {
   z-index: 2;
   height: 35px;
   margin-top: -35px;
