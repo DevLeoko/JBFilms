@@ -31,6 +31,10 @@ body {
   padding: 0 !important;
 }
 
+.v-parallax__image {
+  // margin-bottom: -300px;
+}
+
 @keyframes startUpName {
   0% {
     height: 0px;

@@ -6,6 +6,7 @@
           <v-layout row wrap>
             <v-flex xs12 text-xs-center mb-5>
               <h1 class="display-2 font-weight-thin mb-3">Mein Equipment</h1>
+              <div class="underlineTitle"></div>
             </v-flex>
             <v-flex xs12>
               <v-layout row wrap justify-space-around align-center px-5 mx-5>
@@ -94,6 +95,17 @@
 <style lang="scss" scoped>
 .dimm {
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+  margin-bottom: 6px !important;
+}
+
+.underlineTitle {
+  background-color: #fff;
+  height: 2px;
+  width: 210px;
+  margin: 0 auto;
 }
 
 p {

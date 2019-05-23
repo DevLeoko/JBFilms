@@ -5,6 +5,7 @@
     <about></about>
     <equip></equip>
     <portfolio></portfolio>
+    <contact></contact>
   </v-layout>
 </template>
 
@@ -14,6 +15,7 @@ import Navigation from '~/components/landing/Navigation.vue'
 import About from '~/components/landing/About.vue'
 import Equip from '~/components/landing/Equip.vue'
 import Portfolio from '~/components/landing/Portfolio.vue'
+import Contact from '~/components/landing/Contact.vue'
 
 export default {
   components: {
@@ -21,7 +23,8 @@ export default {
     Navigation,
     About,
     Equip,
-    Portfolio
+    Portfolio,
+    Contact
   }
 }
 </script>
