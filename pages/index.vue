@@ -1,11 +1,11 @@
 <template>
   <v-layout row wrap>
-    <greeting></greeting>
-    <navigation></navigation>
-    <about></about>
-    <equip></equip>
-    <portfolio></portfolio>
-    <contact></contact>
+    <greeting v-observe-visibility="visEvent"></greeting>
+    <navigation :visibilities="visibilities"></navigation>
+    <about v-observe-visibility="visEvent"></about>
+    <equip v-observe-visibility="visEvent"></equip>
+    <portfolio v-observe-visibility="visEvent"></portfolio>
+    <contact v-observe-visibility="visEvent"></contact>
   </v-layout>
 </template>
 
@@ -25,6 +25,23 @@ export default {
     Equip,
     Portfolio,
     Contact
+  },
+  data: function() {
+    return {
+      visibilities: {},
+      visEvent: {
+        callback: this.visibilityChanged,
+        intersection: {
+          rootMargin: '-150px 0px -150px 0px'
+        }
+      }
+    }
+  },
+  methods: {
+    visibilityChanged: function(isVis, entry) {
+      this.visibilities[entry.target.id] = isVis
+      this.visibilities = JSON.parse(JSON.stringify(this.visibilities))
+    }
   }
 }
 </script>

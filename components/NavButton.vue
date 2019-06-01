@@ -1,5 +1,5 @@
 <template>
-  <v-flex xs2>
+  <v-flex xs2 @click="$vuetify.goTo('#' + link, { offset: 50 })">
     <div class="overlineBtn"></div>
     <slot></slot>
     <div class="underlineBtn"></div>
@@ -44,6 +44,11 @@
 
 <script>
 export default {
-  // props: ['test']
+  props: {
+    link: {
+      type: String,
+      default: 'about'
+    }
+  }
 }
 </script>

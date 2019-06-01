@@ -1,5 +1,5 @@
 <template>
-  <v-flex xs12>
+  <v-flex id="equip" xs12>
     <v-parallax src="BG.jpg" height="1000">
       <v-layout align-center row wrap justify-center class="dimm">
         <v-flex xs12>
@@ -12,11 +12,8 @@
               <v-layout row wrap justify-space-around align-center px-5 mx-5>
                 <v-flex xs2>
                   <v-card>
-                    <v-card-media
-                      src="equipment/Canon80dBody.JPG"
-                      height="200px"
-                    >
-                    </v-card-media>
+                    <v-img src="equipment/Canon80dBody.JPG" height="200px">
+                    </v-img>
                     <v-card-title primary-title>
                       <div>
                         <h3 class="headline mb-0">Canon EOS 80d</h3>
@@ -27,8 +24,7 @@
                 </v-flex>
                 <v-flex xs2>
                   <v-card>
-                    <v-card-media src="equipment/Drone.JPG" height="150px">
-                    </v-card-media>
+                    <v-img src="equipment/Drone.JPG" height="150px"> </v-img>
                     <v-card-title primary-title>
                       <div>
                         <h3 class="headline mb-0">Drone</h3>
@@ -39,8 +35,7 @@
                 </v-flex>
                 <v-flex xs2>
                   <v-card>
-                    <v-card-media src="equipment/Glidecam.JPG" height="400px">
-                    </v-card-media>
+                    <v-img src="equipment/Glidecam.JPG" height="400px"> </v-img>
                     <v-card-title primary-title>
                       <div>
                         <h3 class="headline mb-0">Glidecam</h3>
@@ -51,8 +46,8 @@
                 </v-flex>
                 <v-flex xs2>
                   <v-card>
-                    <v-card-media src="equipment/Objektive.JPG" height="200px">
-                    </v-card-media>
+                    <v-img src="equipment/Objektive.JPG" height="200px">
+                    </v-img>
                     <v-card-title primary-title>
                       <div>
                         <h3 class="headline mb-0">Objektive</h3>
@@ -66,8 +61,7 @@
                 </v-flex>
                 <v-flex xs2>
                   <v-card>
-                    <v-card-media src="equipment/Stativ.JPG" height="410px">
-                    </v-card-media>
+                    <v-img src="equipment/Stativ.JPG" height="410px"> </v-img>
                     <v-card-title primary-title>
                       <div>
                         <h3 class="headline mb-0">Stativ</h3>

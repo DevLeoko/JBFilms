@@ -1,5 +1,5 @@
 <template>
-  <v-flex xs12 py-5>
+  <v-flex id="portfolio" xs12 py-5>
     <v-layout row wrap>
       <v-flex xs4 offset-xs4>
         <h1 class="display-2 font-weight-thin mb-3">Portfolio</h1>
@@ -10,9 +10,9 @@
           ratione fugiat aliquam reprehenderit.
         </p>
       </v-flex>
-      <v-flex xs6 offset-xs3 my-5>
+      <v-flex xs10 offset-xs1 my-5>
         <v-layout row wrap px-4>
-          <v-flex xs10>
+          <v-flex xs7 offset-xs1 px-5 mb-2>
             <iframe
               width="100%"
               height="400"
@@ -21,9 +21,35 @@
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-            <h6>* dieses Video ist in Auftrag von BMW entstanden.</h6>
           </v-flex>
-          <v-flex xs10 offset-xs2 mb-3>
+          <v-flex xs4 text-xl-center>
+            <v-layout row wrap align-center fill-height>
+              <v-flex xs12>
+                <img src="~assets/graphics/clients/Harlem.png" width="60%" />
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptas fuga ipsa sed enim optio placeat quam beatae
+                  voluptatem culpa corporis recusandae odio nostrum, facilis
+                  dolorem distinctio magnam autem rem sequi.
+                </p>
+              </v-flex>
+            </v-layout>
+          </v-flex>
+
+          <v-flex xs4 text-xl-center>
+            <v-layout row wrap align-center fill-height>
+              <v-flex xs12>
+                <h2>Test</h2>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptas fuga ipsa sed enim optio placeat quam beatae
+                  voluptatem culpa corporis recusandae odio nostrum, facilis
+                  dolorem distinctio magnam autem rem sequi.
+                </p>
+              </v-flex>
+            </v-layout>
+          </v-flex>
+          <v-flex xs7 px-5 mb-2>
             <iframe
               width="100%"
               height="400"
@@ -33,7 +59,8 @@
               allowfullscreen
             ></iframe>
           </v-flex>
-          <v-flex xs10>
+
+          <v-flex xs7 offset-xs1 px-5>
             <iframe
               width="100%"
               height="400"
@@ -42,7 +69,19 @@
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-            <h6>* dieses Video ist in Auftrag von Mercedes entstanden.</h6>
+          </v-flex>
+          <v-flex xs4 text-xl-center>
+            <v-layout row wrap align-center fill-height>
+              <v-flex xs12>
+                <h2>Test</h2>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptas fuga ipsa sed enim optio placeat quam beatae
+                  voluptatem culpa corporis recusandae odio nostrum, facilis
+                  dolorem distinctio magnam autem rem sequi.
+                </p>
+              </v-flex>
+            </v-layout>
           </v-flex>
         </v-layout>
       </v-flex>

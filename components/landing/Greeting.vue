@@ -1,5 +1,5 @@
 <template>
-  <v-flex xs12>
+  <v-flex id="greeting" xs12>
     <video
       autoplay
       muted
