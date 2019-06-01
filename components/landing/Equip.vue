@@ -12,48 +12,25 @@
               <v-layout row wrap justify-space-around align-center px-5 mx-5>
                 <v-flex xs2>
                   <v-card>
-                    <v-img src="equipment/Canon80dBody.JPG" height="200px">
+                    <v-img src="equipment/Canon80dBody.jpeg" height="200px">
                     </v-img>
                     <v-card-title primary-title>
                       <div>
                         <h3 class="headline mb-0">Canon EOS 80d</h3>
-                        <div>...</div>
+                        <div>Großer Dynamikumfang und FullHD Aufnahmen.</div>
                       </div>
                     </v-card-title>
                   </v-card>
                 </v-flex>
                 <v-flex xs2>
                   <v-card>
-                    <v-img src="equipment/Drone.JPG" height="150px"> </v-img>
+                    <v-img src="equipment/Drone.jpeg" height="150px"> </v-img>
                     <v-card-title primary-title>
                       <div>
-                        <h3 class="headline mb-0">Drone</h3>
-                        <div>...</div>
-                      </div>
-                    </v-card-title>
-                  </v-card>
-                </v-flex>
-                <v-flex xs2>
-                  <v-card>
-                    <v-img src="equipment/Glidecam.JPG" height="400px"> </v-img>
-                    <v-card-title primary-title>
-                      <div>
-                        <h3 class="headline mb-0">Glidecam</h3>
-                        <div>...</div>
-                      </div>
-                    </v-card-title>
-                  </v-card>
-                </v-flex>
-                <v-flex xs2>
-                  <v-card>
-                    <v-img src="equipment/Objektive.JPG" height="200px">
-                    </v-img>
-                    <v-card-title primary-title>
-                      <div>
-                        <h3 class="headline mb-0">Objektive</h3>
+                        <h3 class="headline mb-0">Drohne</h3>
                         <div>
-                          Canon EF-S 18-135mm f/3.5-5.6 IS, Canon EF 75-300mm
-                          f/4-5.6, Yongnuo 50mm f/1.8
+                          Mit einer Auflösung bis zu 2.7k können Aufnahmen aus
+                          der Luft gemacht werden.
                         </div>
                       </div>
                     </v-card-title>
@@ -61,11 +38,45 @@
                 </v-flex>
                 <v-flex xs2>
                   <v-card>
-                    <v-img src="equipment/Stativ.JPG" height="410px"> </v-img>
+                    <v-img src="equipment/Glidecam.jpeg" height="400px">
+                    </v-img>
+                    <v-card-title primary-title>
+                      <div>
+                        <h3 class="headline mb-0">Glidecam</h3>
+                        <div>
+                          Flexibel und kompakt für stabilisierte Kamerafahrten.
+                        </div>
+                      </div>
+                    </v-card-title>
+                  </v-card>
+                </v-flex>
+                <v-flex xs2>
+                  <v-card>
+                    <v-img src="equipment/Objektive.jpeg" height="200px">
+                    </v-img>
+                    <v-card-title primary-title>
+                      <div>
+                        <h3 class="headline mb-0">Objektive</h3>
+                        <div>
+                          <i>
+                            Canon EF-S 18-135mm f/3.5-5.6,<br />
+                            Canon EF 75-300mm f/4-5.6,<br />
+                            Yongnuo 50mm f/1.8<br />
+                          </i>
+                          Alle Sichtweiten von Weitwinkel bis in den Telebereich
+                          sind abgedeckt.
+                        </div>
+                      </div>
+                    </v-card-title>
+                  </v-card>
+                </v-flex>
+                <v-flex xs2>
+                  <v-card>
+                    <v-img src="equipment/Stativ.jpeg" height="410px"> </v-img>
                     <v-card-title primary-title>
                       <div>
                         <h3 class="headline mb-0">Stativ</h3>
-                        <div>...</div>
+                        <div>Für Schwenks, Interviews und Zeitraffer.</div>
                       </div>
                     </v-card-title>
                   </v-card>

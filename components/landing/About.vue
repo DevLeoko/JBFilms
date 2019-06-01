@@ -2,15 +2,15 @@
   <v-flex id="about" xs8 offset-xs2 lighten-3>
     <v-layout row wrap my-5 pa-5 justify-center align-center>
       <v-flex xs4 text-xs-center>
-        <img src="~assets/graphics/general/Jojo3.png" />
+        <img src="~assets/graphics/general/Jojo.png" />
       </v-flex>
       <v-flex xs8 pl-4>
         <h1>Hey,</h1>
         <h2>ich bin Johannes!</h2>
         <p>
-          Ich bin 19 Jahre alt und arbeite als Freelancer in der Video
-          Produktion. Ich mache Musikvideos, Trailer, Interviews, Werbevideos
-          aber auch gerne das passende für dich!
+          Ich bin 19 Jahre alt und arbeite als Freelancer in der
+          Videoproduktion. Ich mache Musikvideos, Trailer, Interviews,
+          Werbevideos aber auch gerne das Passende für dich!
         </p>
         <h1></h1>
       </v-flex>

@@ -5,8 +5,8 @@
         <h1>Sag HI.</h1>
         <p>
           Du hast ne geile Idee für ein Video? Oder absolut keinen Plan,
-          brauchst aber eins? Dann melde dich einfach bei mir uns wir besprechen
-          alles weiter! Lorem ipsum dolor, sit amet consectetur.
+          brauchst aber eins? Dann melde dich einfach bei mir und wir besprechen
+          alles Weitere!
         </p>
       </v-flex>
       <v-flex xs5 offset-xs1>
