@@ -1,5 +1,4 @@
 import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
-import pkg from './package'
 
 export default {
   mode: 'universal',
@@ -19,7 +18,8 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Johannes Blenke. Filme die begeistern und inspirieren.'
+        content:
+          'Musikvideos - Imagefilme - Trailer | Filmproduktion aus Erkrath | Das Passende für dich'
       },
       {
         name: 'keywords',
@@ -28,19 +28,23 @@ export default {
       },
       {
         property: 'og:title',
-        content: 'Johannes Blenke. Filme die begeistern und inspirieren.'
+        content: 'ohannes Blenke | Filmproduktion in Düsseldorf und Umgebung'
       },
       {
         property: 'og:type',
         content: 'Website'
       },
       {
+        property: 'og:image',
+        content: 'https://johannes-blenke.de/android-chrome-512x512.png'
+      },
+      {
         property: 'og:url',
-        content: 'https://confident-poitras-82a4bd.netlify.com/'
+        content: 'https://johannes-blenke.de/'
       },
       {
         property: 'og:site_name',
-        content: 'Johannes Blenke. Cinematographer.'
+        content: 'Johannes Blenke | Filmproduktion'
       },
 
       // Favicon

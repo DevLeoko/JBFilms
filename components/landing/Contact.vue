@@ -1,7 +1,7 @@
 <template>
   <v-flex id="contact" xs12>
     <v-layout row wrap justify-space-around align-content-center py-5>
-      <v-flex xs10 md3>
+      <v-flex id="sayHi" xs10 md3>
         <h1>Sag HI.</h1>
         <p>
           Du hast ne geile Idee für ein Video? Oder absolut keinen Plan,
@@ -14,13 +14,13 @@
           <v-flex xs12>
             <h2>
               <v-icon size="35px" color="#ebe7de">mail</v-icon>
-              &nbsp;johannes@blenkesth.com
+              &nbsp;blenke.productions@gmail.com
             </h2>
           </v-flex>
           <v-flex xs12 mt-3>
             <h2>
               <v-icon size="35px" color="#ebe7de">phone</v-icon>
-              &nbsp;+49 123456789
+              &nbsp;+49 15757256903
             </h2>
           </v-flex>
           <v-flex xs12 mt-3>
@@ -64,9 +64,17 @@
 </template>
 
 <style lang="scss" scoped>
+$breakpoint-sm: 960px;
+
 #contact {
   background-color: #383b4b;
   color: #ebe7de;
+}
+
+#sayHi {
+  @media (max-width: $breakpoint-sm) {
+    margin-bottom: 25px;
+  }
 }
 
 #footer {
@@ -99,6 +107,9 @@ p {
 h2 {
   font-weight: 400;
   font-size: 17pt;
+  @media (max-width: $breakpoint-sm) {
+    font-size: 15pt;
+  }
 }
 
 i {

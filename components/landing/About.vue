@@ -19,6 +19,8 @@
 </template>
 
 <style lang="scss" scoped>
+$breakpoint-sm: 960px;
+
 img {
   width: 80%;
   transform: rotateY(180deg);
@@ -29,14 +31,26 @@ h1 {
 h2 {
   font-size: 23pt;
   font-weight: 600;
+
+  @media (max-width: $breakpoint-sm) {
+    font-size: 21pt;
+  }
 }
 p {
   font-size: 18pt;
   font-weight: 400;
+
+  @media (max-width: $breakpoint-sm) {
+    font-size: 16pt;
+  }
 }
 
 #about {
   padding-top: 15vh;
   padding-bottom: 15vh;
+
+  @media (max-width: $breakpoint-sm) {
+    padding: 0;
+  }
 }
 </style>

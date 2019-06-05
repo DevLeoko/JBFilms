@@ -5,7 +5,7 @@
         <v-flex id="equipContent" xs12>
           <v-layout row wrap>
             <v-flex xs12 text-xs-center mb-5>
-              <h1 class="display-2 font-weight-thin my-3">Mein Equipment</h1>
+              <h1 class="display-2 font-weight-thin mb-3">Mein Equipment</h1>
               <div class="underlineTitle"></div>
             </v-flex>
             <v-flex md10 offset-md1 xs12>
@@ -83,7 +83,7 @@
                 </v-flex>
               </v-layout>
             </v-flex>
-            <v-flex xs4 offset-xs4 text-xs-center mt-5>
+            <v-flex xs8 offset-xs2 md4 offset-md4 text-xs-center mt-5>
               <p>
                 ... und vieles mehr!<br />
                 Durch starke Kooperationen mit anderen Film-Begeisterten steht

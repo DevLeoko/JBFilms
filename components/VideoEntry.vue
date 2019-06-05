@@ -3,7 +3,6 @@
     <v-flex :order-md2="reversed" xs12 md7 px-3>
       <iframe
         width="100%"
-        height="400"
         :src="`https://www.youtube-nocookie.com/embed/${videoId}?controls=0`"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -31,6 +30,14 @@ $breakpoint-sm: 960px;
   p {
     @media (max-width: $breakpoint-sm) {
       margin-top: 0;
+    }
+  }
+
+  iframe {
+    height: 400px;
+
+    @media (max-width: $breakpoint-sm) {
+      height: 250px;
     }
   }
 }
