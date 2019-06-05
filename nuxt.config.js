@@ -28,7 +28,7 @@ export default {
       },
       {
         property: 'og:title',
-        content: 'ohannes Blenke | Filmproduktion in Düsseldorf und Umgebung'
+        content: 'Johannes Blenke | Filmproduktion in Düsseldorf und Umgebung'
       },
       {
         property: 'og:type',
