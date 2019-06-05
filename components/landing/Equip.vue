@@ -1,16 +1,16 @@
 <template>
   <v-flex id="equip" xs12>
-    <v-parallax src="BG.jpg" height="1000">
+    <v-parallax id="myParallax" src="BG.jpg" height="1000">
       <v-layout align-center row wrap justify-center class="dimm">
-        <v-flex xs12>
+        <v-flex id="equipContent" xs12>
           <v-layout row wrap>
             <v-flex xs12 text-xs-center mb-5>
-              <h1 class="display-2 font-weight-thin mb-3">Mein Equipment</h1>
+              <h1 class="display-2 font-weight-thin my-3">Mein Equipment</h1>
               <div class="underlineTitle"></div>
             </v-flex>
-            <v-flex xs12>
-              <v-layout row wrap justify-space-around align-center px-5 mx-5>
-                <v-flex xs2>
+            <v-flex md10 offset-md1 xs12>
+              <v-layout row wrap justify-space-around align-center>
+                <v-flex md2 xs10 mb-4>
                   <v-card>
                     <v-img src="equipment/Canon80dBody.jpeg" height="200px">
                     </v-img>
@@ -22,7 +22,7 @@
                     </v-card-title>
                   </v-card>
                 </v-flex>
-                <v-flex xs2>
+                <v-flex md2 xs10 mb-4>
                   <v-card>
                     <v-img src="equipment/Drone.jpeg" height="150px"> </v-img>
                     <v-card-title primary-title>
@@ -36,7 +36,7 @@
                     </v-card-title>
                   </v-card>
                 </v-flex>
-                <v-flex xs2>
+                <v-flex md2 xs10 mb-4>
                   <v-card>
                     <v-img src="equipment/Glidecam.jpeg" height="400px">
                     </v-img>
@@ -50,7 +50,7 @@
                     </v-card-title>
                   </v-card>
                 </v-flex>
-                <v-flex xs2>
+                <v-flex md2 xs10 mb-4>
                   <v-card>
                     <v-img src="equipment/Objektive.jpeg" height="200px">
                     </v-img>
@@ -70,7 +70,7 @@
                     </v-card-title>
                   </v-card>
                 </v-flex>
-                <v-flex xs2>
+                <v-flex md2 xs10 mb-4>
                   <v-card>
                     <v-img src="equipment/Stativ.jpeg" height="410px"> </v-img>
                     <v-card-title primary-title>
@@ -98,12 +98,26 @@
 </template>
 
 <style lang="scss" scoped>
+$breakpoint-sm: 960px;
 .dimm {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 h1 {
   margin-bottom: 6px !important;
+}
+
+#equipContent {
+  @media (max-width: $breakpoint-sm) {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+#myParallax {
+  @media (max-width: $breakpoint-sm) {
+    height: auto !important;
+  }
 }
 
 .underlineTitle {

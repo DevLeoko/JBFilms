@@ -1,10 +1,10 @@
 <template>
-  <v-flex id="about" xs8 offset-xs2 lighten-3>
+  <v-flex id="about" xs12 md8 offset-md2 lighten-3>
     <v-layout row wrap my-5 pa-5 justify-center align-center>
-      <v-flex xs4 text-xs-center>
+      <v-flex xs8 md4 text-xs-center>
         <img src="~assets/graphics/general/Jojo.png" />
       </v-flex>
-      <v-flex xs8 pl-4>
+      <v-flex xs12 md8 pl-4>
         <h1>Hey,</h1>
         <h2>ich bin Johannes!</h2>
         <p>

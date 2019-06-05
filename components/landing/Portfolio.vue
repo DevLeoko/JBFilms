@@ -1,14 +1,14 @@
 <template>
   <v-flex id="portfolio" xs12 py-5>
     <v-layout row wrap>
-      <v-flex xs4 offset-xs4 text-xs-center>
+      <v-flex xs8 offset-xs2 md4 offset-md4 text-xs-center>
         <h1 class="display-2 font-weight-thin mb-3">Portfolio</h1>
         <div class="underlineTitle"></div>
         <p>
           Hier ein kleiner Überblick über ein paar Projekte.
         </p>
       </v-flex>
-      <v-flex xs8 offset-xs2 my-5>
+      <v-flex xs12 md8 offset-md2 my-5>
         <v-layout row wrap px-4>
           <v-flex xs12>
             <video-entry video-id="saykd72uQ2s">

@@ -5,6 +5,7 @@
     :class="hover ? (fix ? 'hover fixed' : 'hover') : ''"
     xs12
     text-xs-center
+    hidden-sm-and-down
   >
     <v-layout row wrap>
       <v-flex

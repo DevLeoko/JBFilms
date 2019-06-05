@@ -1,6 +1,6 @@
 <template>
   <v-layout class="videoEntry" row wrap pa-3 mb-4>
-    <v-flex :order-xs2="reversed" xs7 px-3>
+    <v-flex :order-md2="reversed" xs12 md7 px-3>
       <iframe
         width="100%"
         height="400"
@@ -10,7 +10,7 @@
         allowfullscreen
       ></iframe>
     </v-flex>
-    <v-flex :order-xs1="reversed" xs5 px-3 text-xl-center>
+    <v-flex :order-md1="reversed" xs12 md5 px-3 text-xl-center>
       <v-layout row wrap align-center fill-height>
         <v-flex xs12>
           <slot></slot>
@@ -21,10 +21,18 @@
 </template>
 
 <style lang="scss" scoped>
+$breakpoint-sm: 960px;
+
 .videoEntry {
   border-radius: 3px;
   background-color: rgb(240, 240, 245);
   // background-color: #eaecf1;
+
+  p {
+    @media (max-width: $breakpoint-sm) {
+      margin-top: 0;
+    }
+  }
 }
 </style>
 

@@ -11,12 +11,33 @@
       <img src="~assets/graphics/logos/logoIcon.png" />
       <div id="namePopup">Johannes Blenke</div>
     </div>
+
+    <div id="scrollMe" class="hidden-md-and-up">
+      <v-icon color="white">touch_app</v-icon> <br />
+      <v-icon color="white">keyboard_arrow_down</v-icon> <br />
+    </div>
   </v-flex>
 </template>
 
 <style lang="scss" scoped>
+$breakpoint-sm: 960px;
+
 img {
   width: 100%;
+}
+
+#scrollMe {
+  cursor: default;
+  position: absolute;
+  top: 90vh;
+  left: 40%;
+  width: 20%;
+  text-align: center;
+  opacity: 0.5;
+
+  br {
+    width: 0;
+  }
 }
 
 #imgContainer {
@@ -24,6 +45,11 @@ img {
   left: 42.5%;
   width: 15%;
   top: 32vh;
+
+  @media (max-width: $breakpoint-sm) {
+    left: 25%;
+    width: 50%;
+  }
 }
 
 #imgContainer:hover > #namePopup {
