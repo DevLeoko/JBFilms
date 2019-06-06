@@ -1,11 +1,8 @@
 <template>
   <v-flex id="greeting" xs12>
-    <video
-      autoplay
-      muted
-      loop
-      src="~assets/graphics/general/trailer.mp4"
-    ></video>
+    <video autoplay muted loop preload="none">
+      <source src="~assets/graphics/general/trailer.mp4" type="video/mp4" />
+    </video>
 
     <div id="imgContainer">
       <img src="~assets/graphics/logos/logoIcon.png" />
