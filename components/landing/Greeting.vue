@@ -1,6 +1,6 @@
 <template>
   <v-flex id="greeting" xs12>
-    <video autoplay muted loop preload="none">
+    <video autoplay muted loop>
       <source src="~assets/graphics/general/trailer.mp4" type="video/mp4" />
     </video>
 
