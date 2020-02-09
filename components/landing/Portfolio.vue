@@ -24,10 +24,8 @@
             <video-entry video-id="saykd72uQ2s">
               <img src="~assets/graphics/clients/Harlem.png" width="60%" />
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Voluptas fuga ipsa sed enim optio placeat quam beatae voluptatem
-                culpa corporis recusandae odio nostrum, facilis dolorem
-                distinctio magnam autem rem sequi.
+                Ein Trailer für das Harlem Café in Neuss. Zeitlupen sind bis zu
+                fünffacher Verlangsamung möglich.
               </p>
             </video-entry>
           </v-flex>
