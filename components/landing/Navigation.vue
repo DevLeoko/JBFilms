@@ -8,6 +8,20 @@
     hidden-sm-and-down
   >
     <v-layout row wrap>
+      <v-flex xs12>
+        <svg
+          width="100%"
+          height="100%"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+        >
+          <polygon
+            points="0,100 0,80 100,0 100,100"
+            style="fill:#fafafa"
+          ></polygon>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+      </v-flex>
       <v-flex
         xs2
         offset-xs1
@@ -34,8 +48,8 @@
 <style lang="scss" scoped>
 #navBar {
   z-index: 2;
-  height: 40px;
-  margin-top: -40px;
+  height: 150px;
+  margin-top: -150px;
   padding-top: 3px;
   // background-image: linear-gradient(
   //   rgba(0, 0, 0, 0),
@@ -49,6 +63,10 @@
 
   &:hover {
     background-color: rgba(26, 26, 44, 0.35);
+  }
+
+  svg {
+    // position: absolute;
   }
 
   &.hover {
@@ -79,11 +97,11 @@ img {
 </style>
 
 <script>
-import NavButton from '~/components/NavButton.vue'
+// import NavButton from '~/components/NavButton.vue'
 
 export default {
   components: {
-    NavButton
+    // NavButton
   },
   props: {
     visibilities: {
